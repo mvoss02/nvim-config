@@ -318,7 +318,7 @@ return {
     -- Automatically open neo-tree on startup on the right
     vim.api.nvim_create_autocmd('VimEnter', {
       callback = function()
-        require('neo-tree.command').execute { toggle = true, position = 'right' }
+        require('neo-tree.command').execute { toggle = true, position = 'left' }
       end,
     })
 
